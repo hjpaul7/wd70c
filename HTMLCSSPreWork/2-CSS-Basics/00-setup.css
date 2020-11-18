@@ -1,0 +1,8 @@
+body {
+  background-color: #dd33dd;
+}
+
+.wrapper {
+  border: 10px solid red;
+  padding: 10px;
+}

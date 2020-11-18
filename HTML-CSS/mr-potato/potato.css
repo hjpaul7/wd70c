@@ -1,0 +1,89 @@
+.skin {
+  width: 266px;
+  height: 380px;
+  background-color: rgba(170, 130, 0, 0.966);
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+}
+
+.big-left-eye {
+  width: 60px;
+  height: 60px;
+  border: solid 1px rgb(204, 47, 42);
+  border-radius: 30px;
+  z-index: 1;
+  position: relative;
+  left: 80px;
+  top: 120px;
+  background-color: rgb(235, 29, 29);
+}
+
+.big-right-eye {
+  width: 60px;
+  height: 60px;
+  border: solid 1px rgb(204, 47, 42);
+  border-radius: 30px;
+  z-index: 1;
+  position: relative;
+  left: 154px;
+  top: 60px;
+  background-color: rgb(235, 29, 29);
+}
+
+.lefteye {
+  width: 16px;
+  height: 16px;
+  border: solid 1px black;
+  border-radius: 3px;
+  z-index: 1;
+  position: relative;
+  left: 102px;
+  top: 26px;
+  background-color: black;
+}
+
+.righteye {
+  width: 16px;
+  height: 16px;
+  border: solid 1px black;
+  border-radius: 3px;
+  z-index: 1;
+  position: relative;
+  left: 174px;
+  top: 18px;
+  background-color: black;
+}
+
+.nose {
+  width: 120px;
+  height: 60px;
+  background: red;
+  border-radius: 100px / 50px;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.nose2 {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid black;
+  border-top: 30px solid black;
+  border-left: 30px solid yellow;
+  border-right: 30px solid yellow;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.smile {
+  background-color: #222;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #222;
+  /* I set 2 shadows where the first one doesn't have blur and spread for firefox fix. */
+  box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
+  -moz-box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
+  margin-left: 100px;
+}
